@@ -33,4 +33,7 @@ class PostsController < ApplicationController
   def find_post
   end
 
+  def post_params
+    params.require(:post).permit(:title, :link, :description)
+  end
 end
