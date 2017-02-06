@@ -28,4 +28,9 @@ class PostsController < ApplicationController
   def destroy
   end
 
+  private
+
+  def find_post
+  end
+
 end
