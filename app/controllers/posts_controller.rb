@@ -7,6 +7,7 @@ class PostsController < ApplicationController
   end
 
   def show
+    @comments = Comment.where(post_id: @post)
   end
 
   def new
@@ -52,6 +53,7 @@ class PostsController < ApplicationController
   private
 
   def find_post
+    @post = Post.find(params[:id])
   end
 
   def post_params
