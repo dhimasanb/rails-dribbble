@@ -54,6 +54,7 @@ gem 'simple_form', '~> 3.4'
 gem 'devise', '~> 4.2'
 gem 'paperclip', '~> 5.1'
 gem 'thin', '~> 1.7'
+gem 'acts_as_votable', '~> 0.10.0'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
