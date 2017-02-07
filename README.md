@@ -16,4 +16,5 @@ Example Simple Web based Rails 5 with SQLite similar Dribbble
 
 ## Thanks
 Thanks to **[Mackenzie Child](https://github.com/mackenziechild/)**
+
 Tutorial : **https://www.youtube.com/watch?v=70Pu_28yvdI&list=PL23ZvcdS3XPLNdRYB_QyomQsShx59tpc-&index=12**
