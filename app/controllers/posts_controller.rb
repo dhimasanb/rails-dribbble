@@ -7,7 +7,6 @@ class PostsController < ApplicationController
   end
 
   def show
-    @post = Post.find(params[:id])
   end
 
   def new
@@ -38,6 +37,11 @@ class PostsController < ApplicationController
   def destroy
     @post.destroy
     redirect_to root_path
+  end
+
+  def upvote
+    @post.upvote_by current_user
+    redirect_to :back
   end
 
   private
